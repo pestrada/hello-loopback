@@ -1,0 +1,195 @@
+{
+	"name": "Clientes",
+	"properties": {
+		"id": {
+			"type": "number",
+			"required": true,
+			"length": null,
+			"precision": 7,
+			"scale": 0,
+			"id": 1,
+			"mysql": {
+				"columnName": "id",
+				"dataType": "mediumint",
+				"dataLength": null,
+				"dataPrecision": 7,
+				"dataScale": 0,
+				"nullable": "N"
+			}
+		},
+		"nombres": {
+			"type": "string",
+			"required": false,
+			"length": 255,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "nombres",
+				"dataType": "varchar",
+				"dataLength": 255,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"appellidos": {
+			"type": "string",
+			"required": false,
+			"length": 255,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "appellidos",
+				"dataType": "varchar",
+				"dataLength": 255,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rfc": {
+			"type": "string",
+			"required": false,
+			"length": 255,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "rfc",
+				"dataType": "varchar",
+				"dataLength": 255,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"movil": {
+			"type": "string",
+			"required": false,
+			"length": 100,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "movil",
+				"dataType": "varchar",
+				"dataLength": 100,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"numeroFijo": {
+			"type": "string",
+			"required": false,
+			"length": 100,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "numero_fijo",
+				"dataType": "varchar",
+				"dataLength": 100,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"direccion": {
+			"type": "string",
+			"required": false,
+			"length": 255,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "direccion",
+				"dataType": "varchar",
+				"dataLength": 255,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ciudad": {
+			"type": "string",
+			"required": false,
+			"length": 255,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "ciudad",
+				"dataType": "varchar",
+				"dataLength": 255,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"codigoPostal": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "codigo_postal",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"estado": {
+			"type": "string",
+			"required": false,
+			"length": 50,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "estado",
+				"dataType": "varchar",
+				"dataLength": 50,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"pais": {
+			"type": "string",
+			"required": false,
+			"length": 100,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "pais",
+				"dataType": "varchar",
+				"dataLength": 100,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"cantidadDePrestamo": {
+			"type": "string",
+			"required": false,
+			"length": 100,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "cantidad_de_prestamo",
+				"dataType": "varchar",
+				"dataLength": 100,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		}
+	},
+	"settings": {
+		"strict": false,
+		"replaceOnPUT": false,
+		"idInjection": false,
+		"mysql": {
+			"schema": "pruebas",
+			"table": "clientes"
+		}
+	}
+}
